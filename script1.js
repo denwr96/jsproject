@@ -65,50 +65,76 @@
 
 // CHALANGE 3 
 
-let teamDoplhins = (96 + 108 + 89) / 3;
-console.log(`Dolphins has ${teamDoplhins} average score`);
+// let teamDoplhins = (96 + 108 + 89) / 3;
+// console.log(`Dolphins has ${teamDoplhins} average score`);
 
-let teamKoalas = (88 + 91 + 110) / 3;
-console.log(`Koalas has ${teamKoalas} average score`);
+// let teamKoalas = (88 + 91 + 110) / 3;
+// console.log(`Koalas has ${teamKoalas} average score`);
 
-if (teamDoplhins > teamKoalas) {
-  console.log("Dolphins is a winner!");
-} else if (teamDoplhins < teamKoalas) {
-  console.log("Koalas is a winner!");
-} else {
-  console.log("Draw!");
-}
+// if (teamDoplhins > teamKoalas) {
+//   console.log("Dolphins is a winner!");
+// } else if (teamDoplhins < teamKoalas) {
+//   console.log("Koalas is a winner!");
+// } else {
+//   console.log("Draw!");
+// }
 
-// BONUS 1
+// // BONUS 1
 
-teamDoplhins = (97 + 112 + 101) / 3;
-console.log(`Dolphins has ${teamDoplhins} average score`);
-teamKoalas = (109 + 95 + 123) / 3;
-console.log(`Koalas has ${teamKoalas} average score`);
+// teamDoplhins = (97 + 112 + 101) / 3;
+// console.log(`Dolphins has ${teamDoplhins} average score`);
+// teamKoalas = (109 + 95 + 123) / 3;
+// console.log(`Koalas has ${teamKoalas} average score`);
 
-if (teamDoplhins > teamKoalas && teamDoplhins > 100) {
-  console.log("Dolphins is a winner!");
-} else if (teamKoalas > teamDoplhins && teamKoalas > 100) {
-  console.log("Koalas is a winner!");
-} else if (teamDoplhins === teamKoalas) {
-  console.log("Draw! :)");
-} else {
-  console.log("No winner :(");
-}
+// if (teamDoplhins > teamKoalas && teamDoplhins > 100) {
+//   console.log("Dolphins is a winner!");
+// } else if (teamKoalas > teamDoplhins && teamKoalas > 100) {
+//   console.log("Koalas is a winner!");
+// } else if (teamDoplhins === teamKoalas) {
+//   console.log("Draw! :)");
+// } else {
+//   console.log("No winner :(");
+// }
 
-// BONUS 2 
+// // BONUS 2 
 
-teamDoplhins = (97 + 112 + 101) / 3;
-console.log(`Dolphins has ${teamDoplhins} average score`);
-teamKoalas = (109 + 95 + 106) / 3;
-console.log(`Koalas has ${teamKoalas} average score`);
+// teamDoplhins = (97 + 112 + 101) / 3;
+// console.log(`Dolphins has ${teamDoplhins} average score`);
+// teamKoalas = (109 + 95 + 106) / 3;
+// console.log(`Koalas has ${teamKoalas} average score`);
 
-if (teamDoplhins > teamKoalas && teamDoplhins > 100) {
-  console.log("Dolphins is a winner!");
-} else if (teamKoalas > teamDoplhins && teamKoalas > 100) {
-  console.log("Koalas is a winner!");
-} else if (teamDoplhins >= 100 && teamKoalas >= 100 && teamDoplhins === teamKoalas) {
-  console.log("Draw! :)");
-} else {
-  console.log("No winner :(");
-}
+// if (teamDoplhins > teamKoalas && teamDoplhins > 100) {
+//   console.log("Dolphins is a winner!");
+// } else if (teamKoalas > teamDoplhins && teamKoalas > 100) {
+//   console.log("Koalas is a winner!");
+// } else if (teamDoplhins >= 100 && teamKoalas >= 100 && teamDoplhins === teamKoalas) {
+//   console.log("Draw! :)");
+// } else {
+//   console.log("No winner :(");
+// }
+
+
+// 28. The Conditional (Ternary) Operator
+
+// const age = 18;
+
+// const drink = age >= 18 ? 'wine' : 'water';
+// console.log(drink);
+
+// Coding Chalanlenge #4
+
+const bill = 430;
+
+const tip = bill >= 50 && bill <= 300 ?
+  bill * 0.15 : bill * 0.2;
+
+// const tip = bill >= 50 && bill <= 300 ?
+//   (bill * 15) / 100 : (bill * 20) / 100;
+
+// if (bill >= 50 && bill <= 300) {
+//   tip = (bill * 15) / 100;
+// } else {
+//   tip = (bill * 20) / 100;
+// }
+
+console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`);
