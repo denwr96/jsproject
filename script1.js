@@ -123,10 +123,6 @@
 
 // Coding Chalanlenge #4
 
-const bill = 430;
-
-const tip = bill >= 50 && bill <= 300 ?
-  bill * 0.15 : bill * 0.2;
 
 // const tip = bill >= 50 && bill <= 300 ?
 //   (bill * 15) / 100 : (bill * 20) / 100;
@@ -136,5 +132,10 @@ const tip = bill >= 50 && bill <= 300 ?
 // } else {
 //   tip = (bill * 20) / 100;
 // }
+
+const bill = 430;
+
+const tip = bill >= 50 && bill <= 300 ?
+  bill * 0.15 : bill * 0.2;
 
 console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`);
